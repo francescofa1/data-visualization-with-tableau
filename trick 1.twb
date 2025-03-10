@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Halloween Data (HalloweenExcel2020)' inline='true' name='federated.13wwz7s1sj1vhg19wnyar1e6uxm0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HalloweenExcel2020' name='excel-direct.182bjwy0zk0ecu1e97suz1bm83m7'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/frast/Università/Data science/Data Visualization/Assignments/1.HalloweenDataset/HalloweenExcel2020.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.182bjwy0zk0ecu1e97suz1bm83m7' name='Halloween Data' table='[&apos;Halloween Data$&apos;]' type='table'>
+          <columns gridOrigin='A1:G14:no:A1:G14:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='integer' name='6pm' ordinal='1' />
+            <column datatype='integer' name='6:30pm' ordinal='2' />
+            <column datatype='integer' name='7pm' ordinal='3' />
+            <column datatype='integer' name='7:30pm' ordinal='4' />
+            <column datatype='integer' name='8pm' ordinal='5' />
+            <column datatype='integer' name='Total (8:15pm)' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Halloween Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:G14:no:A1:G14:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Halloween Data]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>6pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[6pm]</local-name>
+            <parent-name>[Halloween Data]</parent-name>
+            <remote-alias>6pm</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>6:30pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[6:30pm]</local-name>
+            <parent-name>[Halloween Data]</parent-name>
+            <remote-alias>6:30pm</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>7pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[7pm]</local-name>
+            <parent-name>[Halloween Data]</parent-name>
+            <remote-alias>7pm</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>7:30pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[7:30pm]</local-name>
+            <parent-name>[Halloween Data]</parent-name>
+            <remote-alias>7:30pm</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>8pm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[8pm]</local-name>
+            <parent-name>[Halloween Data]</parent-name>
+            <remote-alias>8pm</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total (8:15pm)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total (8:15pm)]</local-name>
+            <parent-name>[Halloween Data]</parent-name>
+            <remote-alias>Total (8:15pm)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='6:30Pm' datatype='integer' name='[6:30pm]' role='measure' type='quantitative' />
+      <column caption='6Pm' datatype='integer' name='[6pm]' role='measure' type='quantitative' />
+      <column caption='7:30Pm' datatype='integer' name='[7:30pm]' role='measure' type='quantitative' />
+      <column caption='7Pm' datatype='integer' name='[7pm]' role='measure' type='quantitative' />
+      <column caption='8Pm' datatype='integer' name='[8pm]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total (8:15pm)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='Halloween Data' datatype='table' name='[__tableau_internal_object_id__].[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Halloween Data_F1DE4A46F5714861842B2E5E4E50732D:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[6:30pm]' derivation='Sum' name='[sum:6:30pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[6pm]' derivation='Sum' name='[sum:6pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[7:30pm]' derivation='Sum' name='[sum:7:30pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[7pm]' derivation='Sum' name='[sum:7pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[8pm]' derivation='Sum' name='[sum:8pm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total (8:15pm)]' derivation='Sum' name='[sum:Total (8:15pm):qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/frast/AppData/Local/Temp/TableauTemp/#TableauTemp_09f1dza1mlp5yz123yjuz05cobho.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/10/2025 05:31:14 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Halloween Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>6pm</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[6pm]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>6pm</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Halloween Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>6:30pm</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[6:30pm]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>6:30pm</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Halloween Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>7pm</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[7pm]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>7pm</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Halloween Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>7:30pm</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[7:30pm]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>7:30pm</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Halloween Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>8pm</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[8pm]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>8pm</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Halloween Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total (8:15pm)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total (8:15pm)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total (8:15pm)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Halloween Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Halloween Data_F1DE4A46F5714861842B2E5E4E50732D]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[sum:Total (8:15pm):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[sum:7pm:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[sum:7:30pm:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[__tableau_internal_object_id__].[cnt:Halloween Data_F1DE4A46F5714861842B2E5E4E50732D:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[sum:6pm:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[sum:8pm:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[sum:6:30pm:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Forecast Indicator:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Actual&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Estimate&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <object-graph>
+        <objects>
+          <object caption='Halloween Data' id='Halloween Data_F1DE4A46F5714861842B2E5E4E50732D'>
+            <properties context=''>
+              <relation connection='excel-direct.182bjwy0zk0ecu1e97suz1bm83m7' name='Halloween Data' table='[&apos;Halloween Data$&apos;]' type='table'>
+                <columns gridOrigin='A1:G14:no:A1:G14:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='integer' name='6pm' ordinal='1' />
+                  <column datatype='integer' name='6:30pm' ordinal='2' />
+                  <column datatype='integer' name='7pm' ordinal='3' />
+                  <column datatype='integer' name='7:30pm' ordinal='4' />
+                  <column datatype='integer' name='8pm' ordinal='5' />
+                  <column datatype='integer' name='Total (8:15pm)' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Halloween Data (HalloweenExcel2020)' name='federated.13wwz7s1sj1vhg19wnyar1e6uxm0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13wwz7s1sj1vhg19wnyar1e6uxm0'>
+            <column caption='6:30Pm' datatype='integer' name='[6:30pm]' role='measure' type='quantitative' />
+            <column caption='6Pm' datatype='integer' name='[6pm]' role='measure' type='quantitative' />
+            <column caption='7:30Pm' datatype='integer' name='[7:30pm]' role='measure' type='quantitative' />
+            <column caption='7Pm' datatype='integer' name='[7pm]' role='measure' type='quantitative' />
+            <column caption='8Pm' datatype='integer' name='[8pm]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[6:30pm]' derivation='Sum' forecast-column-base='[sum:6:30pm:qk]' forecast-column-type='forecast-value' name='[fVal:sum:6:30pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[6pm]' derivation='Sum' forecast-column-base='[sum:6pm:qk]' forecast-column-type='forecast-value' name='[fVal:sum:6pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[7:30pm]' derivation='Sum' forecast-column-base='[sum:7:30pm:qk]' forecast-column-type='forecast-value' name='[fVal:sum:7:30pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[7pm]' derivation='Sum' forecast-column-base='[sum:7pm:qk]' forecast-column-type='forecast-value' name='[fVal:sum:7pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[8pm]' derivation='Sum' forecast-column-base='[sum:8pm:qk]' forecast-column-type='forecast-value' name='[fVal:sum:8pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[6:30pm]' derivation='Sum' name='[sum:6:30pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[6pm]' derivation='Sum' name='[sum:6pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[7:30pm]' derivation='Sum' name='[sum:7:30pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[7pm]' derivation='Sum' name='[sum:7pm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[8pm]' derivation='Sum' name='[sum:8pm:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[fVal:sum:6pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[fVal:sum:6:30pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[fVal:sum:7pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[fVal:sum:7:30pm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[fVal:sum:8pm:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <natural-sort column='[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[:Measure Names]' direction='ASC' />
+          <slices>
+            <column>[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[none:Year:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#f9a655' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[:Measure Names]</rows>
+        <cols>[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[Multiple Values]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-type='auto' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{4A43DD18-F0CD-4429-9025-91CA71B48612}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Halloween Data (HalloweenExcel2020)' name='federated.13wwz7s1sj1vhg19wnyar1e6uxm0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13wwz7s1sj1vhg19wnyar1e6uxm0'>
+            <column datatype='integer' name='[Total (8:15pm)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Total (8:15pm)]' derivation='Sum' forecast-column-base='[sum:Total (8:15pm):qk]' forecast-column-type='forecast-value' name='[fVal:sum:Total (8:15pm):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total (8:15pm)]' derivation='Sum' name='[sum:Total (8:15pm):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[none:Forecast Indicator:nk]' />
+              <text column='[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[fVal:sum:Total (8:15pm):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[fVal:sum:Total (8:15pm):qk]</rows>
+        <cols>[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[none:Year:qk]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-type='auto' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{0DB50FD6-0010-4D03-B31B-76006EAC094E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[:Measure Names]</field>
+            <field>[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F79A2A21-13B9-4411-8DF4-953517BC23A3}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[none:Forecast Indicator:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.13wwz7s1sj1vhg19wnyar1e6uxm0].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6872AABF-F893-4AA7-A381-F3A9492D5B9F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='175' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
